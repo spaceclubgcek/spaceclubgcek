@@ -6,65 +6,35 @@
     <title>Space Club GCEK</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #000;
-            color: #fff;
         }
-        header {
-            background: #111;
-            padding: 20px;
+        .navbar {
+            position: sticky;
+            top: 0;
+            background-color: aqua;
+            padding: 10px 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-            color: #00f;
+        .navbar a {
+            text-decoration: none;
+            color: #000;
+            padding: 14px 20px;
+            display: inline-block;
         }
-        header p {
-            margin: 10px 0;
-            font-size: 1.2em;
-            color: #ccc;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-        main h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        main p {
-            font-size: 1.2em;
-            margin: 20px 0;
-        }
-        footer {
-            background: #111;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        footer p {
-            margin: 0;
-            color: #ccc;
+        .navbar a:hover {
+            background-color: #fff;
+            color: #000;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Space Club GCEK</h1>
-        <p>Exploring the Universe with Passion and Innovation</p>
-    </header>
-    <main>
-        <h2>Welcome to the Space Club!</h2>
-        <p>The Space Club GCEK is a group of enthusiastic students dedicated to exploring and understanding the vastness of space. We handle a variety of space-related projects and strive to push the boundaries of what's possible.</p>
-        <p>Join us on our journey to explore the cosmos and contribute to exciting projects that make a difference!</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Space Club GCEK. All rights reserved.</p>
-    </footer>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
 </body>
 </html>
